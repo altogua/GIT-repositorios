@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <title>Estructura</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <header>
+        <section>
+            <img src="IRIS.jpg" alt="logo">
+        </section>
+    
+    </header>
+    
+    <section>
+        <article class="artistas">
+            <img src="imagenes/sufjan.jpg" alt="artista">
+            <p>Sufjan Stevens Sufjan Stevens (Detroit, 1975) es, sin lugar a dudas, el artista más reconocido de la corriente neo-folk de Estados Unidos. Sus canciones recogen un universo fantástico y mítico, donde dragones, brujas, el cielo y el infierno dan forma a sus letras.</p>
+        </article>    
+
+        <article class="artistas">
+            <img src="imagenes/fanta.jpg" alt="artista">
+            <p>F.A.N.T.A. En su devoción por el role-model niki-intronáutico, son una pequeña obra maestra de melodía y sentido del humor, una bendición abrigada en acelerada e imposible serie Z adolescente. Su propia limitación ramoniana los hace fundamentales, insuperables e inagotables> </p>
+        </article>
+        
+        <article class="artistas">
+            <img src="imagenes/royal.jpg" alt="artista">
+            <p>El Petit de Cal Eril.
+            Cantan canciones sencillas que viajan a lugares inesperados. Nos hablan de las pequeñas cosas y de animales de todos los tamaños. De la vida desocupada en el pueblo. De no hacer nada y de hacer un poco de todo.</p>
+        </article>
+    </section>
+    
+    
+    <section class="festival">
+        <img src="imagenes/crash.jpg" alt="#">
+
+    </section>
+    
+    <section class="centro">
+        <img src="imagenes/redfang.jpg" alt="Red Fang">
+    </section>
+    
+    <form>
+       
+        <fieldset>
+            <legend>DATOS DE IDENTIFICACIÓN</legend>
+            
+            <label for="correo">E-mail</label>
+            <input type="email" id="correo" required>
+            
+            <label for="web">Web</label>
+            <input type="url" id="web" pattern="http://www\.[A-Za-z0-9]{3,50}\.[A-Za-z0-9]{2,3}">
+            
+            
+            
+        </fieldset>
+        
+        <fieldset>
+            
+
+            <legend>DATOS PERSONALES</legend>
+           
+            <label for="nombre"></label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+            
+            <label for="apellido"></label>
+            <input type="text" id="apellido" placeholder="Escribe tu apellido" required>
+            <input type="number tel" id="tel" placeholder="escribe tu movil" required>
+            <select>
+               <optgroup label="Cataluña"> 
+                <option>Barcelona</option>
+                <option selected>Badalona</option>
+                <option>Cornellá</option>
+                <option>El Prat</option>
+                <option>L'Hospitalet</option>
+               </optgroup>
+               <optgroup label="Valencia">
+                <option>Castellón</option>
+                <option>Valencia</option>
+                <option>Alicante</option>
+               </optgroup>
+            </select>
+            
+            <label for="mujer">Mujer</label>
+            <input type="radio" value="Mujer" id="mujer" name="sexo">
+            
+            <label for="hombre">Hombre</label>
+            <input type="radio" value="Hombre" id="hombre" name="sexo">
+            <textarea rows="4"  cols="30" ></textarea>
+            
+        </fieldset>
+        
+           
+        
+            <input type="checkbox" id="spam">
+            <label for="spam">Acepto recibir e-mails informativos de futuros eventos.</label>
+        
+            <button type="submit">ENVIAR</button>
+            <button type="reset">BORRAR</button>
+        
+
+        
+    </form>
+    
+    
+   
+
+     <footer>
+       <section class="3img">
+        <img src="imagenes/f.a.n.tttttta.jpeg" alt="f.a.n.t.a."> 
+        <img src="imagenes/foto%20con%20guitarra%20stev.jpeg" alt="Subjan">
+        <img src="imagenes/el%20petit.jpeg" alt="Grupo Petit">
+        <img src="imagenes/f.a.n.tttttta.jpeg" alt="f.a.n.t.a."> 
+        <img src="imagenes/foto%20con%20guitarra%20stev.jpeg" alt="Subjan">
+        <img src="imagenes/el%20petit.jpeg" alt="Grupo Petit">   
+           
+        </section>
+         
+         
+    <section class="logo">
+         <a href="https://www.facebook.com/Bandcamp"><img src="imagenes/FB-f-Logo__blue_144.png" alt="facebook"></a>
+         
+        
+         <a href="https://twitter.com/bandcamp"><img src="imagenes/Twitter_Logo_White_On_Blue.png" alt="twiter"></a>
+         
+        
+         <a href="https://www.instagram.com/bandcamp"><img src="imagenes/glyph-logo_May2016.png" alt="instagram"></a>
+         
+    </section>
+
+             
+    </footer>
+   
+    
+</body>
+</html>
